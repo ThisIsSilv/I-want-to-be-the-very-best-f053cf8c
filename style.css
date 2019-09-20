@@ -1,0 +1,45 @@
+body {
+  background-image: url("Wallpaper.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+td,
+th {
+    border: 1px solid rgb(190, 190, 190);
+    padding: 10px;
+}
+
+td {
+    text-align: center;
+}
+
+tr {
+    background-color: #2B2C2C;
+    color: #E18C95;
+}
+
+th[scope="col"] {
+    background-color: #E18C95;
+    color: #2B2C2C;
+}
+
+th[scope="row"] {
+    background-color: #E18C95;
+    color: #2B2C2C;
+}
+
+caption {
+    padding: 10px;
+    caption-side: bottom;
+    color: #6CC6D9;
+    text-shadow: 3px 3px 3px  #0C6E7B;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid #0C6E7B;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+    font-size: .8rem;
+}
